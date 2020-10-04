@@ -1,9 +1,10 @@
 import React from 'react';
+import Toolbar from './Toolbar';
 
-const Footer = () => {
+const Footer = ({ toolbar }) => {
   return (
     <footer className="p-3">
-      <p>Footer Content Should Go Here</p>
+      <Toolbar toolbar={toolbar} />
     </footer>
   );
 };
